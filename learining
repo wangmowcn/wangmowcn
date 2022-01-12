@@ -1,9 +1,0 @@
-clone git@github.com:<your_github_username>/coding-interview-university.git
-checkout -b progress
-remote add jwasham https://github.com/jwasham/coding-interview-university
-fetch --all
-add .
-commit -m "Marked x"
-rebase jwasham/main
-push --set-upstream origin progress
-push --force
